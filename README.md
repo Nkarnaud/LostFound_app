@@ -1,5 +1,20 @@
 # Flask restful api with blue_print on ubuntu 
 
+# Technology stack:
+    - python 3.7,
+    - Flask 1.0,
+    - flake8 3.5.0,
+    - docker 18.06.1-ce,
+    - docker-compose 1.22.0,
+    - Mysql
+    - postgres 11.4,
+    - Flask-Testing 2.1.1,
+    - Flask-SQLAlchemy 2.3.2,
+    - flask-bcrypt 0.7.1
+    - flask-migrate 2.1.1
+    - pyjwt 1.5.3
+    - flask_mail
+
 ## How to run the App!
 
 - Install Docker version 18.06.1-ce, build e68fc7a
@@ -28,6 +43,6 @@
 - #subject = "Please confirm your email"
 - #send_email(new_user.email, subject, content)
             
-in the 'projectapiauth.py' in registration method.
+in the 'project/api/auth.py' in registration method.
 define the smtp server parameter in the config file 
 and also the mail authentication paramters in the docker-compose file.
